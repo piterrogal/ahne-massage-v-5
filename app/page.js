@@ -20,7 +20,7 @@ return (
 <p className="mt-2">Comfortable rooms and professional massage service.</p>
 </section>
 
-<section className="grid md:grid-cols-2 gap-4 p-6">
+<section className="flex flex-col md:flex-row gap-4 p-6 justify-center items-center">
 <Image src="/lounge.jpg" width={500} height={400} alt="" className="rounded-xl"/>
 <Image src="/room.jpg" width={500} height={400} alt="" className="rounded-xl"/>
 </section>
